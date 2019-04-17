@@ -10,7 +10,10 @@ class Post extends Component {
                     {this.props.post.message}
                 </p>
                 <button
-                   onClick={() => console.log('dd')} 
+                   onClick={() => this.props.dispatch({
+                       type:'EDIT_POST', 
+                       id:this.props.post.id
+                    })} 
                 >
                     Editar
                 </button>
