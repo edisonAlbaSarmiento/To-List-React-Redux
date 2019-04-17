@@ -1,6 +1,10 @@
 # learningReactRedux
 Form react whit redux 
 
+# learningReactRedux
+Thanks for your explanation I understand a little more redux by @pchakravorty 
+it is intended to improve
+
 ## Available Scripts
 
 In the project directory, you can run:
