@@ -21,9 +21,9 @@ class PostForm extends Component {
     }
     render(){
         return(
-            <div>
-                <h1>Crear nuevo post</h1>
-                <form onSubmit={this.handleSubmit}>
+            <div className='post-container'>
+                <h1 className='post_heading'>Crear nuevo post</h1>
+                <form className='form' onSubmit={this.handleSubmit}>
                     <input required type='text'placeholder='Ingresar titulo de post' 
                         ref={(input) => this.getTitle = input}
                     /><br/><br/>

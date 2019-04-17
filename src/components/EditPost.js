@@ -18,8 +18,8 @@ class EditPost extends Component {
     }
     render(){
         return(
-            <div>
-                <form onSubmit={this.handleEdit}>
+            <div key={this.props.post.id} className='post'>
+                <form className='form' onSubmit={this.handleEdit}>
                     <input required type='text'placeholder='Ingresar titulo de post' 
                         ref={(input) => this.getTitle = input}
                         defaultValue={this.props.post.title}

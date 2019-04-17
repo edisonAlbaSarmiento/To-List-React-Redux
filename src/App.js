@@ -8,7 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello React!</h1>
+        <div className='navbar'>
+          <h1>Ingresar nuevo post!</h1>
+        </div>
         <PostForm/>
         <AllPost/>
       </div>
