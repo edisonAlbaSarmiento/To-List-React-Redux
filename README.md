@@ -1,6 +1,6 @@
 # learningReactRedux
 Form react whit redux 
-
+Add deploy in firebase web Hosting 
 # learningReactRedux
 Thanks for your explanation I understand a little more redux by @pchakravorty 
 it is intended to improve
